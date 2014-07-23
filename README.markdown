@@ -10,7 +10,12 @@ Puts a bunch of symlinks in ~/.warp and uses them to jump around
 
 ## Installation
 
-Symlink wd.sh into your shell startup somehow.  I like to source it from profile.
+Symlink wd.sh into your shell startup somehow.  I like to source it into my shell from ~/.profile
+
+    # source all the extra completion files in ~/.shell_completion/
+    for f (~/.shell_completion/*.sh) {
+        source $f
+    }
 
 ## Usage
 
