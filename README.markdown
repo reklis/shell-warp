@@ -19,3 +19,7 @@ Symlink wd.sh into your shell startup somehow.  I like to source it from profile
 * `wd <name>` warp to target
 * `wd-` warp back to the directory before the last warp
 
+
+---
+
+![gittip](http://img.shields.io/gittip/reklis.svg)
