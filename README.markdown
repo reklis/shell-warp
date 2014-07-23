@@ -14,8 +14,8 @@ Symlink wd.sh into your shell startup somehow.  I like to source it from profile
 
 ## Usage
 
-`wda <name> <dir>` add warp target
-`wdl` list warp targets
-`wd <name>` warp to target
-`wd-` warp back to the directory before the last warp
+* `wda <name> <dir>` add warp target
+* `wdl` list warp targets
+* `wd <name>` warp to target
+* `wd-` warp back to the directory before the last warp
 
