@@ -22,4 +22,4 @@ Symlink wd.sh into your shell startup somehow.  I like to source it from profile
 
 ---
 
-![gittip](http://img.shields.io/gittip/reklis.svg)
+[![gittip](http://img.shields.io/gittip/reklis.svg)](https://www.gittip.com/reklis/)
