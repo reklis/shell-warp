@@ -26,6 +26,6 @@ function wdr() {
 }
 
 function wdl() {
-  ls -l ${warp_dir} | cut -d ' ' -f 12,13,14 | tail -n +2
+  ls -l ~/.warp | sed 's/  / /g' | awk '{ print $9 " " $10 " " $11 }' | tail -n +2
 }
 
